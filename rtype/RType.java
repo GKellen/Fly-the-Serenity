@@ -20,10 +20,7 @@ public class RType extends JFrame {
 
     public static void main(String[] args) {
         RType rType = new RType();
-        addBoundary(new Boundary(0,height, width,height));
-        addBoundary(new Boundary(width,height, width,0));
-        addBoundary(new Boundary(width,0,0,0));
-        addBoundary(new Boundary(0,0,0,height));
+        
      
     }
 }
