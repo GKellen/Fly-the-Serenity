@@ -13,7 +13,7 @@ public class RType extends JFrame {
         setSize(1000, 1000);
         setLocationRelativeTo(null);
         setTitle("R - Type");
-        setResizable(false);
+        setResizable(true);
         setVisible(true);
         
     }
